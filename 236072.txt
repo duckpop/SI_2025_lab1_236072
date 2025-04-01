@@ -1,0 +1,22 @@
+git pull
+git checkout 16-remove-a-task-by-name
+git add .
+git commit
+git push
+git log --oneline --graph --all
+
+*   cc4beb2 (HEAD -> master, origin/master, origin/HEAD) Merge branch 'master' of github.com:duckpop/SI_2025_lab1_236072
+|\
+| *   a4dd090 Merge pull request #26 from duckpop/16-remove-a-task-by-name
+| |\
+| | * 02f825a (origin/16-remove-a-task-by-name, 16-remove-a-task-by-name) add function to remove a task by name
+| * |   e9fd0bf Merge pull request #27 from duckpop/20-filter-tasks-by-category
+| |\ \
+| | |/
+| |/|
+| | * 683f625 (origin/20-filter-tasks-by-category, 20-filter-tasks-by-category) add function to filter by category
+| |/
+* / adfff91 (origin/23-mark-a-task-as-completed-by-name, 23-mark-a-task-as-completed-by-name) add function to change the completion status of a task
+|/
+* 25e477b Add starter code
+* 96c346d Initial commit
